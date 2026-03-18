@@ -100,7 +100,7 @@ module.exports = async () => {
 	if (lastVersion)
 		console.log(
 			INFO_PREFIX,
-			Locale.get("UPDATE_DETECTED") + ` (v${lastVersion})`
+			Locale.get("UPDATE_AVAILABLE") + ` (v${lastVersion})`
 		);
 	else console.log(INFO_PREFIX, Locale.get("RUNNING_LATEST_VERSION"));
 
